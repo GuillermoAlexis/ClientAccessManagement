@@ -1,5 +1,5 @@
 {
-  "name": "client-access-management",
+  "name": "front-access-management",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
