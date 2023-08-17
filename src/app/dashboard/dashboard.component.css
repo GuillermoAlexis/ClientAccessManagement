@@ -1,0 +1,29 @@
+.user-info, .user-permissions, .user-last-access {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .user-info h2, .user-permissions h2, .user-last-access h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .user-permissions ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .user-permissions li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .user-last-access p {
+    margin-top: 5px;
+    color: #777;
+  }
+  

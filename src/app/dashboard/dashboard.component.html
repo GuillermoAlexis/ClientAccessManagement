@@ -1,0 +1,18 @@
+<div class="user-info">
+    <h2>Datos del Usuario</h2>
+    <p><strong>Nombre:</strong> {{ usuario.nombreCompleto }}</p>
+    <p><strong>Email:</strong> {{ usuario.email }}</p>
+  </div>
+  
+  <div class="user-permissions">
+    <h2>Permisos</h2>
+    <ul>
+      <li *ngFor="let permiso of permisos">{{ permiso.permiso }}</li>
+    </ul>
+  </div>
+  
+  <div class="user-last-access">
+    <h2>Último Acceso</h2>
+    <p><strong>Fecha:</strong> {{ ultimoAcceso.fecha }}</p>
+  </div>
+  
